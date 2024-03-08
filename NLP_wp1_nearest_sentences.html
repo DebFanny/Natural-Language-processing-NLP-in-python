@@ -14580,13 +14580,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>This notebook is mixt bewteen a work practice and the research I did online.</p>
+<p>This notebook is mixt between a work practice and the research I did online. Here you will find a small tutoriel of text processing tools and a tutorial to find the similar sentences (matching in meaning/semantic way).</p>
 <h1 id="First-work-practice-in-NLP">First work practice in NLP<a class="anchor-link" href="#First-work-practice-in-NLP">&#182;</a></h1><p>Subject :</p>
 <p>Go on Google News and select 2 press articles (2 about the same topic).
 Copy/paste the text content of each article in 2 separate files.</p>
 <p><strong>The goal is to find the two nearest sentences (in a meaning/semantic way) in the articles on the same topic.</strong>
-The possible tools used to achieve this result are : <strong>tokenization,
-normalization, regular expressions, string distances</strong>.</p>
+The possible tools used to achieve this result are : <strong>tokenization, regular expressions and string distances</strong>.</p>
 
 </div>
 </div>
@@ -14607,7 +14606,7 @@ normalization, regular expressions, string distances</strong>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nltk</span>
@@ -14635,7 +14634,7 @@ normalization, regular expressions, string distances</strong>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">'punkt'</span><span class="p">)</span>
@@ -14669,7 +14668,7 @@ normalization, regular expressions, string distances</strong>.</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14689,7 +14688,7 @@ normalization, regular expressions, string distances</strong>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">'stopwords'</span><span class="p">)</span>
@@ -14723,7 +14722,7 @@ normalization, regular expressions, string distances</strong>.</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14743,7 +14742,7 @@ normalization, regular expressions, string distances</strong>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">'wordnet'</span><span class="p">)</span>
@@ -14776,7 +14775,7 @@ normalization, regular expressions, string distances</strong>.</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15490,7 +15489,7 @@ for works , the lemma returned is the singular form, work .</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lemmatizer_output</span><span class="o">=</span><span class="n">WordNetLemmatizer</span><span class="p">()</span>
@@ -15562,7 +15561,7 @@ lematization of &#39;works&#39;: work
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">stemmer_output</span><span class="o">=</span><span class="n">PorterStemmer</span><span class="p">()</span>
@@ -15625,7 +15624,7 @@ lemmatization of &#39;happiness&#39;: happiness
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"similarity with distance between 'relate' and 'relation'"</span><span class="p">,</span><span class="n">edit_distance</span><span class="p">(</span><span class="s2">"relate"</span><span class="p">,</span><span class="s2">"relation"</span><span class="p">))</span>
@@ -15677,7 +15676,7 @@ note: to use Jaccard you have to use a set.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span><span class="o">=</span><span class="nb">set</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">40</span><span class="p">])</span>
@@ -15734,7 +15733,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text1</span> <span class="o">=</span> <span class="s2">"Elizabeth II (Elizabeth Alexandra Mary; 21 April 1926 – 8 September 2022) was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during of his life and 15 at the time of his death. [a] Her reign of 70 years and 214 days is the longest of any British monarch and the longest recorded of any female head of state in history. "</span><span class="o">+</span><span class="s2">"Elizabeth was born in Mayfair, London, as the first child of the Duke and Duchess of York (later King George VI and Queen Elizabeth). Her father came to the throne in 1936 upon the abdication of his brother, King Edward VIII, making Elizabeth heir presumptive. She was educated privately at home and began taking public office during World War II, serving in the Auxiliary Territorial Service. In November 1947, she married Philip Mountbatten, a former prince of Greece and Denmark, and their marriage lasted 73 years until his death in April 2021. They had four children: Charles, Anne, Andrew and Edward. "</span><span class="o">+</span><span class="s2">"When her father died in February 1952, Elizabeth, then aged 25, became queen of seven independent Commonwealth countries: the United Kingdom, Canada, Australia, New Zealand, South Africa , Pakistan and Ceylon (known today as Sri Lanka). as well as head of the Commonwealth. Elizabeth reigned as a constitutional monarch through major political changes such as the Troubles in Northern Ireland, devolution in the United Kingdom, decolonization of Africa, and the United Kingdom's membership of the European Communities and withdrawal of the European Union. The number of its kingdoms varied over time as territories gained independence and some kingdoms became republics. His many historic visits and meetings include state visits to China in 1986, Russia in 1994 and the Republic of Ireland in 2011, as well as meetings with five popes. "</span> <span class="o">+</span><span class="s2">"Significant events include Elizabeth's coronation in 1953 and the celebrations of her silver, gold, diamond and platinum jubilees in 1977, 2002, 2012 and 2022, respectively. Elizabeth was the longest-serving British monarch and the second longest-reigning sovereign in world history, behind only Louis XIV of France. She sometimes faced republican sentiment and media criticism of her family, particularly after the breakdown of her children's marriages, her annus horribilis in 1992, and the death of her former daughter-in-law Diana, Princess of Wales, in 1997. However, support as the monarchy in the United Kingdom has remained consistently high, as has his personal popularity. Elizabeth died aged 96 at Balmoral Castle, Aberdeenshire in 2022, months after her platinum jubilee, and was succeeded by her eldest son, Charles III."</span>
@@ -15756,7 +15755,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">freq</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">list_word1</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">i</span><span class="p">))</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">list_word1</span><span class="p">))</span>
@@ -15772,7 +15771,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">too_freq_word</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">freq</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">v</span><span class="o">&gt;=</span><span class="mi">3</span> <span class="p">}</span><span class="c1">#and len(k)&lt;7}</span>
@@ -15794,7 +15793,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15837,7 +15836,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">too_freq_word</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">freq</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">v</span><span class="o">&gt;=</span><span class="mi">3</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">k</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">5</span> <span class="ow">and</span> <span class="n">k</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">()</span><span class="o">==</span><span class="kc">False</span><span class="p">}</span>
@@ -15877,7 +15876,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># sequence of usual words</span>
@@ -15915,7 +15914,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15957,7 +15956,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text1</span> <span class="o">=</span> <span class="s2">"Elizabeth II (Elizabeth Alexandra Mary; 21 April 1926 – 8 September 2022) was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during of his life and 15 at the time of his death. [a] Her reign of 70 years and 214 days is the longest of any British monarch and the longest recorded of any female head of state in history. "</span><span class="o">+</span><span class="s2">"Elizabeth was born in Mayfair, London, as the first child of the Duke and Duchess of York (later King George VI and Queen Elizabeth). Her father came to the throne in 1936 upon the abdication of his brother, King Edward VIII, making Elizabeth heir presumptive. She was educated privately at home and began taking public office during World War II, serving in the Auxiliary Territorial Service. In November 1947, she married Philip Mountbatten, a former prince of Greece and Denmark, and their marriage lasted 73 years until his death in April 2021. They had four children: Charles, Anne, Andrew and Edward. "</span><span class="o">+</span><span class="s2">"When her father died in February 1952, Elizabeth, then aged 25, became queen of seven independent Commonwealth countries: the United Kingdom, Canada, Australia, New Zealand, South Africa , Pakistan and Ceylon (known today as Sri Lanka). as well as head of the Commonwealth. Elizabeth reigned as a constitutional monarch through major political changes such as the Troubles in Northern Ireland, devolution in the United Kingdom, decolonization of Africa, and the United Kingdom's membership of the European Communities and withdrawal of the European Union. The number of its kingdoms varied over time as territories gained independence and some kingdoms became republics. His many historic visits and meetings include state visits to China in 1986, Russia in 1994 and the Republic of Ireland in 2011, as well as meetings with five popes. "</span> <span class="o">+</span><span class="s2">"Significant events include Elizabeth's coronation in 1953 and the celebrations of her silver, gold, diamond and platinum jubilees in 1977, 2002, 2012 and 2022, respectively. Elizabeth was the longest-serving British monarch and the second longest-reigning sovereign in world history, behind only Louis XIV of France. She sometimes faced republican sentiment and media criticism of her family, particularly after the breakdown of her children's marriages, her annus horribilis in 1992, and the death of her former daughter-in-law Diana, Princess of Wales, in 1997. However, support as the monarchy in the United Kingdom has remained consistently high, as has his personal popularity. Elizabeth died aged 96 at Balmoral Castle, Aberdeenshire in 2022, months after her platinum jubilee, and was succeeded by her eldest son, Charles III."</span>
@@ -15973,7 +15972,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text1</span>
@@ -15994,7 +15993,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16014,7 +16013,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text2</span> <span class="o">=</span> <span class="s2">"Elizabeth II (pronounced in French /elizabɛt/a; in English: Elizabeth II, pronounced /əˈlɪzəbəθ/b), born April 21, 1926 in Mayfair (London) and died September 8, 2022 at Balmoral Castle (Scotland), is queen of the United Kingdom of Great Britain and Northern Ireland and the other Commonwealth Realms from 6 February 1952 until his death. At birth, she was third in line to the throne after her uncle and her father. In 1936, his uncle became king but abdicated a few months later, leaving the throne to his younger brother. Princess Elizabeth then became, at the age of 10, heir presumptive to the British Crown. During the Second World War, she enlisted in the Auxiliary Territorial Service. On November 20, 1947, she married Philip Mountbatten, Prince of Greece and Denmark, with whom she had four children: Charles, Anne, Andrew and Edward. She acceded to the British throne on February 6, 1952, at the age of 25, on the death of George VI. His coronation, on June 2, 1953, was the first to be broadcast on television. She becomes the sovereign of seven independent Commonwealth states: South Africa, Australia, Canada, Ceylon, New Zealand, Pakistan and the United Kingdom. Between 1956 and 2021, the number of its kingdoms increases and decreases at the same time: colonies of the British Empire gain independence, choose whether or not to recognize Queen Elizabeth II as the symbolic sovereign of their new independent state ; some kingdoms also became republics. In the year of her death, in addition to the aforementioned Australia, Canada, New Zealand and the United Kingdom, Elizabeth II was Queen of Antigua and Barbuda, the Bahamas, Belize, Grenada , Jamaica, Papua New Guinea, Saint Kitts and Nevis, Saint Vincent and the Grenadines, Saint Lucia, Solomon Islands and Tuvalu. During a long reign in which she saw fifteen different British Prime Ministers succeed one another, she made numerous historic visits and oversaw several constitutional changes in her kingdoms, such as the devolution of power to the United Kingdom and the patriation of the Constitution of Canada . She also experienced difficult times, including the assassination of Prince Philip's uncle and mentor, Lord Mountbatten, in 1979, and the separations and divorce of three of her children in 1992 (a year she describes as annus horribilis). , the death of her daughter-in-law, Diana Spencer, in 1997, the almost simultaneous deaths of her sister and mother in 2002, as well as the death of her husband in 2021 after more than 73 years of marriage. Furthermore, the Queen has sometimes had to face harsh criticism of the royal family from the press, but support for the monarchy and her personal popularity remain high among the British population. On September 9, 2015, she became the longest-reigning British sovereign. She reigned for 70 years, 7 months and 2 days, exceeding the reign of her great-great-grandmother Queen Victoria (63 years, 7 months and 2 days). On October 13, 2016, following the death of Thailand's King Rama IX, she became the longest-reigning and oldest sovereign in office. At the start of June 2022, she becomes the first monarch in the history of the United Kingdom to celebrate her platinum jubilee, which marks the 70th anniversary of her accession to the throne. She then became the second monarch of the modern era to have had the longest reign, behind the King of France Louis XIV. She died three months later, on September 8, 2022, at the age of 96; his eldest son succeeded him under the name of Charles III."</span>
@@ -16030,7 +16029,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text2</span>
@@ -16051,7 +16050,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16071,7 +16070,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text1</span><span class="o">=</span><span class="n">text1</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
@@ -16088,7 +16087,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">english_tokenizer</span><span class="o">=</span><span class="n">nltk</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'tokenizers/punkt/english.pickle'</span><span class="p">)</span>
@@ -16106,7 +16105,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tok1</span>
@@ -16127,7 +16126,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16183,7 +16182,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
@@ -16218,7 +16217,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16541,7 +16540,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s2">"comparison_score_edit"</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
@@ -16562,7 +16561,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16878,7 +16877,7 @@ Jaccard&#39;s coefficient for distance with &#39;similarity with Jaccard coef&#3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"According to Levenshtein Edit Distance the two nearest sentence in the text are:"</span><span class="p">)</span>
@@ -16951,7 +16950,7 @@ process :</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">"1_sentences_processing"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"1_sentences"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">text</span> <span class="p">:</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"("</span><span class="p">,</span><span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">")"</span><span class="p">,</span><span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">","</span><span class="p">,</span><span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">":"</span><span class="p">,</span><span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">";"</span><span class="p">,</span><span class="s2">""</span><span class="p">))</span>
@@ -16986,7 +16985,7 @@ process :</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17333,7 +17332,7 @@ process :</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">"Jaccard_score"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">td</span><span class="o">.</span><span class="n">jaccard</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s2">"1_sentences_processing"</span><span class="p">],</span><span class="n">x</span><span class="p">[</span><span class="s2">"2_sentences_processing"</span><span class="p">]),</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
