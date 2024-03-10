@@ -19,6 +19,8 @@ To be uploaded :
 * insurance reviews : automatic understanding of the topic of the review
 * insurance reviews : sentiment analysis and prediction of the rating
 * insurance reviews : generate review samples
+* google maps review : synthesis of comments with the strong points and weak points of each place
+* google maps review : place recommandation based on review, semantic and reinforcement learning
 * graphical visualization of highdimensional text representations with t-sne
 * basics of LLM
 * advanced LLM 
